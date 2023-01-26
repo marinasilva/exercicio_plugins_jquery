@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    overflow-x: hidden; /* todo conteúdo que ultrapassa o tamanho da tela será "escondido" - elimina a barra de rolagem inferior*/
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #192a56;
+    padding: 16px;
+    color: #fff;
+}
+
+header {
+    position: sticky; /*mantem o cabeçalho durante a rolagem*/
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header > .container {    
+    justify-content: space-between;
+    align-items: center; /*alinhar itens na vertical*/
+    padding-bottom: 16px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;    
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-campo {
+    margin-bottom: 16px;    
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    max-width: 360px;
+}
+
+
+
+
